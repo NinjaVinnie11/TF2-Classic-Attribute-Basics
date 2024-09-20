@@ -526,6 +526,7 @@
 					"value"			"1.2"						//value of attribute
 				}
 			}
-		}
-  	}
+		}//put items after this bracket - WILL ACTUALLY WORK
+
+  	} //dont put items after this bracket - WILL NOT WORK
 }
