@@ -2,7 +2,7 @@
 {
 	"items"
 	{
-		"3"              //These are the TF2 Classic Items. Don't have IDs with the same number as these or the non-custom weapon shall not work
+		"3"              //These are the TF2 Classic Items. Don't have IDs with the same number as these or the non-custom weapon shall not work.
 		{
 			"name"						"TF_WEAPON_CLUB"
 			"prefab"					"weapon_club"
