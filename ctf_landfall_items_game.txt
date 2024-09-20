@@ -511,9 +511,9 @@
 			"image_inventory"			"backpack/weapons/w_models/w_wrench"		//image shown in backpack - reboot server to change
 			"model_world"				"models/weapons/w_models/w_wrench.mdl"		//model seen by others - reboot server to change
 			"model_player"				"models/weapons/v_models/v_wrench_engineer.mdl"	//model seen by player who holds it - reboot server to change
-			"attach_to_hands"			"2"						//which class is it available to - reboot server to change
+			"attach_to_hands"			"2"						//how many hands hold the weapon - use 0 for fists
 
-			"used_by_classes"
+			"used_by_classes"									//which class is it available to - reboot server to change
 			{
 				"scout"				"1"
 			}
@@ -523,7 +523,7 @@
 				"damage bonus"									//name of attribute - 2nd column of attribute wiki					
 				{
 					"attribute_class"	"mult_dmg"					//name of class - 5th column of attribute wiki
-					"value"			"1.2"					//value of attribute
+					"value"			"1.2"						//value of attribute
 				}
 			}
 		}
