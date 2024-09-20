@@ -1,0 +1,1057 @@
+"mapname_items_game"
+{
+	"items"
+	{
+		"3"
+		{
+			"name"						"TF_WEAPON_CLUB"
+			"prefab"					"weapon_club"
+			"item_class"                "tf_weapon_umbrellac"
+			"baseitem"					"1"
+			"item_description"			"Alt-Fire (Mouse 2): Grant an ally damage resistance and health regen for 10 seconds! (20 sec cooldown)
+
+			'A little of the chop-chop!'"
+			"model_world"				"models/weapons/w_models/w_machete.mdl"
+			"model_player"				"models/weapons/v_models/v_machete_sniper.mdl"
+			"attach_to_hands"			"2"
+			"item_logname"				"club"
+			"item_iconname"				"club"
+			"attributes"
+			{
+				"strange restriction type 1"															
+				{
+					"attribute_class"	"mult_dmg"
+					"value"				"30"
+				}
+				"weapon_stattrak_module_scale"												
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"				"1.6"
+				}
+				"civ boost cond override"													
+				{
+					"attribute_class"	"add_civ_boost_override"
+					"value"				"111 1"
+				}	
+			}
+		}
+		"7"
+		{
+			"name"						"TF_WEAPON_WRENCH"
+			"prefab"					"weapon_wrench"
+			"baseitem"					"1"
+			"item_description"			"#TF_Weapon_Wrench_Desc"
+			"model_world"				"models/weapons/w_models/w_wrench.mdl"
+			"model_player"				"models/weapons/v_models/v_wrench_engineer.mdl"
+			"attach_to_hands"			"2"
+			"attributes"
+			{
+				"weapon_stattrak_module_scale"															
+				{
+					"attribute_class"	"mult_sentry_knockback"
+					"value"				"0.5"
+				}
+			}
+		}
+		"9"
+		{
+			"name"						"TF_WEAPON_SHOTGUN_PRIMARY"
+			"prefab"					"weapon_shotgun"
+			"baseitem"					"1"
+			"item_description"			"#TF_Weapon_Shotgun_Primary_Desc"
+			"item_slot"					"primary"
+			"model_world"				"models/weapons/w_models/w_shotgun.mdl"
+			"model_player"				"models/weapons/v_models/v_shotgun_engineer.mdl"
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"engineer"				"1"
+			}
+			"attributes"
+			{
+				"weapon_stattrak_module_scale"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"				"0.75"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}	
+			}
+		}
+		"10"
+		{
+			"name"						"TF_WEAPON_SHOTGUN_SOLDIER"
+			"prefab"					"weapon_shotgun"
+			"baseitem"					"1"
+			"hidden"					"1"
+			"item_description"			"#TF_Weapon_Shotgun_Soldier_Desc"
+			"item_slot"					"secondary"
+			"model_world"				"models/weapons/w_models/w_shotgun.mdl"
+			"model_player"				"models/weapons/v_models/v_shotgun_soldier.mdl"
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"soldier"				"1"
+			}
+			"attributes"
+			{
+			    "weapon_stattrak_module_scale"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"				"0.75"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}	
+			}
+		}
+		"11"
+		{
+			"name"						"TF_WEAPON_SHOTGUN_HWG"
+			"prefab"					"weapon_shotgun"
+			"baseitem"					"1"
+			"hidden"					"1"
+			"item_description"			"#TF_Weapon_Shotgun_HWG_Desc"
+			"item_slot"					"secondary"
+			"model_world"				"models/weapons/w_models/w_shotgun.mdl"
+			"model_player"				"models/weapons/v_models/v_shotgun_heavy.mdl"
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"heavy"					"1"
+			}
+			"attributes"
+			{
+			    "weapon_stattrak_module_scale"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"				"0.75"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}	
+			}
+		}
+		"12"
+		{
+			"name"						"TF_WEAPON_SHOTGUN_PYRO"
+			"prefab"					"weapon_shotgun"
+			"baseitem"					"1"
+			"hidden"					"1"
+			"item_slot"					"secondary"
+			"model_world"				"models/weapons/w_models/w_shotgun.mdl"
+			"model_player"				"models/weapons/v_models/v_shotgun_pyro.mdl"
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"pyro"					"1"
+			}
+			"attributes"
+			{
+			    "weapon_stattrak_module_scale"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"				"0.75"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}	
+			}
+		}
+		"13"
+		{
+			"name"						"TF_WEAPON_SCATTERGUN"
+			"prefab"					"weapon_scattergun"
+			"baseitem"					"1"
+			"item_description"			"#TF_Weapon_Scattergun_Desc"
+			"model_world"				"models/weapons/w_models/w_scattergun.mdl"
+			"model_player"				"models/weapons/v_models/v_scattergun_scout.mdl"
+			"attach_to_hands"			"2"
+			"attributes"
+			{
+			    "weapon_stattrak_module_scale"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"				"0.75"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}	
+			}
+		}
+		"15"
+		{
+			"name"						"TF_WEAPON_MINIGUN"
+			"prefab"					"weapon_minigun"
+			"baseitem"					"1"
+			"item_description"			"#TF_Weapon_Minigun_Desc"
+			"model_world"				"models/weapons/w_models/w_minigun.mdl"
+			"model_player"				"models/weapons/v_models/v_minigun_heavy.mdl"
+			"attach_to_hands"			"2"
+			"attributes"
+			{
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}
+                "strange restriction type 1"
+				{
+					"attribute_class"	"mod_always_draw_tracer_effect"
+					"value"				"1"
+				}					
+			}
+		}
+		"16"
+		{
+			"name"						"TF_WEAPON_SMG"
+			"prefab"					"weapon_smg"
+			"baseitem"					"1"
+			"item_description"			"#TF_Weapon_SMG_Desc"
+			"model_world"				"models/weapons/w_models/w_smg.mdl"
+			"model_player"				"models/weapons/v_models/v_smg_sniper.mdl"
+			"attach_to_hands"			"2"
+			"attributes"
+			{
+			    "weapon_stattrak_module_scale"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"				"0.7"
+				}	
+				"weapon_stattrak_module_scale"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"				"1.25"
+				}
+				"weapon_stattrak_module_scale"
+				{
+					"attribute_class"	"mult_reload_time"
+					"value"				"1.215"
+				}	
+				"weapon_stattrak_module_scale"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"				"3.0"
+				}	
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}
+                "punch angle mod add hidden"
+				{
+					"attribute_class"	"punch_angle_mod"
+					"value" 			"0.380"
+				}
+                "punch angle mod add hidden"
+				{
+					"attribute_class"	"punch_angle_is_constant"
+					"value"				"1"
+				}
+                "strange restriction type 1"
+				{
+					"attribute_class"	"mod_always_draw_tracer_effect"
+					"value"				"1"
+				}
+                "strange restriction type 1"													
+				{
+					"attribute_class"	"mod_custom_rampup"
+					"value"				"1.75"
+				}				
+			}
+		}
+		"17"
+		{
+			"name"						"TF_WEAPON_SYRINGEGUN_MEDIC"
+			"prefab"					"weapon_syringegun"
+			"baseitem"					"1"
+			"item_description"			"#TF_Weapon_SyringeGun_Desc"
+			"model_world"				"models/weapons/w_models/w_syringegun.mdl"
+			"model_player"				"models/weapons/v_models/v_syringegun_medic.mdl"
+			"attach_to_hands"			"2"
+			"attributes"
+			{
+			    "weapon_stattrak_module_scale"
+				{
+					"attribute_class"	"mult_projectile_speed"
+					"value"				"1.33"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}	
+			}
+		}
+		"18"
+		{
+			"name"						"TF_WEAPON_ROCKETLAUNCHER"
+			"prefab"					"weapon_rocketlauncher"
+			"baseitem"					"1"
+			"item_description"			"#TF_Weapon_RocketLauncher_Desc"
+			"model_world"				"models/weapons/w_models/w_rocketlauncher.mdl"
+			"model_player"				"models/weapons/v_models/v_rocketlauncher_soldier.mdl"
+			"attach_to_hands"			"2"
+			"attributes"
+			{
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}	
+			}
+		}
+		"19"
+		{
+			"name"						"TF_WEAPON_GRENADELAUNCHER"
+			"prefab"					"weapon_grenade_launcher"
+			"baseitem"					"1"
+			"item_description"			"#TF_Weapon_GrenadeLauncher_Desc"
+			"model_world"				"models/weapons/w_models/w_grenadelauncher.mdl"
+			"model_player"				"models/weapons/v_models/v_grenadelauncher_demo.mdl"
+			"attach_to_hands"			"2"
+			"attributes"
+			{
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}	
+			}
+		}
+		"20"
+		{
+			"name"						"TF_WEAPON_PIPEBOMBLAUNCHER"
+			"prefab"					"weapon_stickybomb_launcher"
+			"baseitem"					"1"
+			"model_world"				"models/weapons/w_models/w_stickybomb_launcher.mdl"
+			"model_player"				"models/weapons/v_models/v_stickybomb_launcher_demo.mdl"
+			"attach_to_hands"			"2"
+			"attributes"
+			{
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}	
+			}
+		}
+		"21"
+		{
+			"name"						"TF_WEAPON_FLAMETHROWER"
+			"prefab"					"weapon_flamethrower"
+			"baseitem"					"1"
+			"model_world"				"models/weapons/w_models/w_flamethrower.mdl"
+			"model_player"				"models/weapons/v_models/v_flamethrower_pyro.mdl"
+			"attach_to_hands"			"2"
+			"attributes"
+			{
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}	
+			}
+		}
+		"22"
+		{
+			"name"						"TF_WEAPON_PISTOL"
+			"prefab"					"weapon_pistol"
+			"baseitem"					"1"
+			"item_description"			"#TF_Weapon_Pistol_Desc"
+			"model_world"				"models/weapons/w_models/w_pistol.mdl"
+			"model_player"				"models/weapons/v_models/v_pistol_engineer.mdl"
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"engineer"				"1"
+			}
+			"attributes"
+			{
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}	
+			}
+		}
+		"23"
+		{
+			"name"						"TF_WEAPON_PISTOL_SCOUT"
+			"prefab"					"weapon_pistol"
+			"baseitem"					"1"
+			"item_description"			"#TF_Weapon_Pistol_Scout_Desc"
+			"model_world"				"models/weapons/w_models/w_pistol.mdl"
+			"model_player"				"models/weapons/v_models/v_pistol_scout.mdl"
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"scout"					"1"
+			}
+			"attributes"
+			{
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}	
+			}
+		}
+		"24"
+		{
+			"name"						"TF_WEAPON_REVOLVER"
+			"prefab"					"weapon_revolver"
+			"baseitem"					"1"
+			"item_description"			"#TF_Weapon_Revolver_Desc"
+			"model_world"				"models/weapons/w_models/w_revolver.mdl"
+			"model_player"				"models/weapons/v_models/v_revolver_spy.mdl"
+			"attach_to_hands"			"2"
+			"attributes"
+			{
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}	
+			}
+		}
+
+		"32" // First TF2Classic item
+		{
+			"name"						"TF_WEAPON_UMBRELLA"
+			"prefab"					"weapon_umbrella"
+			"baseitem"					"1"
+			"item_description"			"#TF_Weapon_Umbrella_Desc"
+			"attributes"
+			{
+				"decrease player capture value"
+				{
+					"attribute_class"		"add_player_capturevalue"
+					"value" 				"-2"
+				}	
+			}
+		}
+		"33"
+		{
+			"name"						"The Kritzkrieg"
+			"prefab"					"valve weapon_medigun"
+			"show_in_armory"			"1"
+			"item_name"					"#TF_Unique_Achievement_Medigun1"
+			"item_description"			"#TF_Unique_Achievement_Medigun1_Desc"
+			"propername"				"1"
+			"equip_region"				"medigun_backpack"
+			"image_inventory"			"backpack/weapons/w_models/w_kritzkrieg"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"model_world"				"models/weapons/w_models/w_kritzkrieg.mdl"
+			"model_player"				"models/weapons/v_models/v_kritzkrieg_medic.mdl"
+			"extra_wearable" 			"models/player/items/kritzkrieg_backpack.mdl"
+			"attach_to_hands"			"2"
+			"min_ilevel"				"8"
+			"max_ilevel"				"8"
+			"attributes"
+			{
+				"lunchbox adds minicrits"
+				{
+					"attribute_class"	"set_weapon_mode"
+					"value"				"1"
+				}
+				"medigun charge is crit boost"
+				{
+					"attribute_class"	"set_charge_type"
+					"value"				"1"
+				}
+				"ubercharge rate bonus"
+				{
+					"attribute_class"	"mult_medigun_uberchargerate"
+					"value"				"1.25"
+				}
+				"special taunt"
+				{
+					"attribute_class"	"special_taunt"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"medic_backpack"			"1"
+				}
+			}
+		}
+
+//Weapons by Vinnie
+
+		"100"
+		{
+			"name"					"Spy - Knife (Heals on kill + passively)"
+			"item_class"				"tf_weapon_knife"
+			"show_in_armory"			"1"
+			
+			"item_slot"					"melee"
+			"item_quality"				"rarity2"
+			"item_logname"				"macheteKnife"
+			"item_iconname"				"machete"
+			"propername"				"1"
+			"item_type_name"			"#TF_Weapon_Knife"
+			"item_name"					"Death Defier"
+			"item_description"			"You'll Never Catch Me DEAD!"
+			"image_inventory"			"backpack/weapons/w_models/w_machete"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"model_world"				"models/weapons/w_models/w_machete.mdl"
+			"model_player"				"models/weapons/v_models/v_machete_sniper.mdl"
+			"attach_to_hands"			"1"
+			"min_ilevel"				"10"
+			"max_ilevel"				"10"
+			"used_by_classes"
+			{
+				"spy"		"1"
+			}
+			"attributes"
+			{
+				"heal on kill"
+				{
+					"attribute_class"	"heal_on_kill"
+					"value"				"75"
+				}
+
+				"health regen"
+				{
+					"attribute_class"	"add_health_regen"
+					"value"				"3"
+				}
+				
+				"reduced_healing_from_medics"
+				{
+					"attribute_class"	"mult_healing_from_medics"
+					"value"				"0.25"
+				}
+				
+				"max health additive penalty"
+				{
+					"attribute_class"	"add_maxhealth"
+					"value"				"-15"
+				}
+
+				"cloak consume rate increased"
+				{
+					"attribute_class"	"mult_cloak_meter_consume_rate"
+					"value"				"1.5"
+				}
+
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"				"0.8"
+				}
+
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"sound_melee_miss"			"Weapon_machete_swing"
+				"sound_melee_hit"			"Weapon_machete_swing"
+				"sound_melee_hit_world"			"Weapon_machete_swing"
+				"sound_burst"				"Weapon_machete_swing_crit"
+			}
+			"xifier_class_remap"		"machete"
+		}
+
+		"101"
+		{
+			"name"						"Soldier - Rocket Launcher (Large Blast Radius, Low Clip)"
+			"prefab"					"weapon_rocketlauncher"
+			"show_in_armory"			"1"
+			"item_quality"				"rarity2"
+			"item_name"					"Army's Artillery"
+			"item_description"			"You stand back there and fire!"
+			"propername"				"1"
+			"item_logname"				"artillery"
+			"item_iconname"				"rpg"
+			"min_ilevel"				"8"
+			"max_ilevel"				"8"
+			"image_inventory"			"backpack/weapons/w_models/w_rpg"
+			"model_world"				"models/weapons/w_models/w_rpg.mdl"
+			"model_player"				"models/weapons/v_models/v_rpg_soldier.mdl"
+			"attach_to_hands"			"2"
+			"attributes"
+			{
+				"rocket gravity"
+				{
+					"attribute_class"	"mod_rocket_gravity"
+					"value"				"0.5"
+				}
+				"no damage falloff over distance"
+				{
+					"attribute_class"	"mod_no_dmg_falloff"
+					"value"				"1"
+				}
+				"blast radius increased"
+				{
+					"attribute_class"	"mult_explosion_radius"
+					"value"				"2"
+				}
+				"Projectile speed increased"
+				{
+					"attribute_class"	"mult_projectile_speed"
+					"value"				"1.2"
+				}
+				"deploy time decreased"
+				{
+					"attribute_class"	"mult_deploy_time"
+					"value"				"0.5"
+				}
+				"Reload time increased"
+                		{
+					"attribute_class"	"mult_reload_time"
+					"value" 			"+1.75"
+				}
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"				"0.8"
+				}
+				"maxammo primary reduced"
+				{
+					"attribute_class"	"mult_maxammo_primary"
+					"value"				"0.4"
+				}
+				"clip size penalty"
+				{
+					"attribute_class"	"mult_clipsize"
+					"value"				"0.25"
+				}
+				"custom projectile model"
+				{
+					"attribute_class"	"custom_projectile_model"
+					"value"				"models/weapons/w_models/w_rocketbeta.mdl"
+				}				
+			}
+			"visuals"
+			{
+				"sound_single_shot"		"Weapon_BetaRPG.Single"
+				"sound_burst"			"Weapon_BetaRPG.SingleCrit"
+			}
+		}
+		
+		"102"
+		{
+			"name"						"Spy - Knife (Doesn't Undisguise)"
+			"item_class"				"tf_weapon_knife"
+			"show_in_armory"			"1"
+			
+			"item_slot"					"melee"
+			"item_quality"				"rarity2"
+			"item_logname"				"syringeKnife"
+			"item_iconname"				"knife"
+			"propername"				"1"
+			"item_type_name"			"#TF_Weapon_Knife"
+			"item_name"					"Crowd Coverer"
+			"item_description"			"Stick to the Disguise!"
+			"image_inventory"			"backpack/weapons/w_models/w_syringe"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"model_world"				"models/weapons/w_models/w_syringe.mdl"
+			"model_player"				"models/weapons/v_models/v_syringe_medic.mdl"
+			"attach_to_hands"			"1"
+			"min_ilevel"				"10"
+			"max_ilevel"				"10"
+			"used_by_classes"
+			{
+				"spy"		"1"
+			}
+			"attributes"
+			{
+				"keep disguise"
+				{
+					"attribute_class"	"set_keep_disguise"
+					"value"				"1"
+				}
+
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"				"1.25"
+				}
+
+				"add cloak on hit"
+				{
+					"attribute_class"	"add_cloak_on_hit"
+					"value"				"20"
+				}
+
+				"cloak consume rate increased"
+				{
+					"attribute_class"	"mult_cloak_meter_consume_rate"
+					"value"				"2"
+				}
+				
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"1"
+				}
+			}
+		}
+
+		"103"
+        	{
+           		"name"						"Spy - Watch (Fast MoveSpeed whilst Cloaked"
+			"prefab"				"weapon_invis"
+           		"show_in_armory"			"1"
+
+			"propername"				"1"
+			"item_quality"				"rarity2"
+			"item_name"				"Fast Frenchie"
+			"item_type_name"			"#TF_Weapon_Watch"
+			"item_description"			"Got to go fast amigo!"
+			"image_inventory"			"backpack/weapons/c_models/c_leather_watch/parts/c_leather_watch"
+			"model_player"				"models/weapons/v_models/v_watch_leather_spy.mdl"
+			"attach_to_hands"			"0"
+
+			"used_by_classes"
+			{
+				"spy"					"1"
+			}
+
+           		"attributes"
+           		{
+				"move speed bonus while cloaked"
+				{
+					"attribute_class"	"mult_player_movespeed_cloaked"
+					"value"				"1.75"
+				}
+
+				"damage force increase"
+				{
+					"attribute_class"	"mult_player_movespeed_cloaked"
+					"value"				"1.75"
+				}
+
+				"move speed penalty"
+				{
+					"attribute_class"	"mult_player_movespeed"
+					"value"				"0.85"
+				}				
+           		}
+		}
+
+		"104"
+		{
+		    	"tags"
+			{
+				"bots_cant_use"			"1"
+			}
+			"name"						"Soldier - Rocket Launcher (No damage, more blast force)"
+			"prefab"					"weapon_rocketlauncher"
+			"show_in_armory"			"1"
+
+			"propername"				"1"
+			"item_quality"				"rarity2"
+			"item_name"					"Rocket Jumper"
+			"item_type_name"			"Training Tool"
+			"item_description"			"You need to learn to walk before learning to run."
+			"item_logname"				"Rocket Jumper"
+			"item_iconname"				"Rocket Jumper"
+			"image_inventory"			"backpack/weapons/c_models/c_rocketjumper/c_rocketjumper"
+			"model_world"				"models/weapons/w_models/w_rocketjumper.mdl"
+			"model_player"				"models/weapons/v_models/v_rocketjumper_soldier.mdl"
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"soldier"				"1"
+			}
+			"attributes"
+			{
+				"self dmg push force increased"
+				{
+					"attribute_class"	"mult_dmgself_push_force"
+					"value"				"1.5"
+				}
+
+				"no self blast dmg"
+				{
+					"attribute_class"	"no_self_blast_dmg"
+					"value"				"1"
+				}
+
+				"cancel falling damage"
+				{
+					"attribute_class"	"cancel_falling_damage"
+					"value"				"1"
+				}
+
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"				"0"
+				}
+
+				"cannot pick up intelligence"
+				{
+					"attribute_class"	"cannot_pick_up_intelligence"
+					"value"				"1"
+				}
+
+				"custom projectile model"
+				{
+					"attribute_class"	"custom_projectile_model"
+					"value"				"models/weapons/w_models/w_rocket_rocketjumper.mdl"
+				}
+			}
+		}
+
+		"105"		
+		{
+		    	"name"					"Soldier - Shovel (Crits on blast jump)"
+			"prefab"				"weapon_shovel"									
+			"show_in_armory"			"1"
+
+			"item_quality"				"rarity2"
+
+			"propername"				"1"
+			"item_name"				"Smiter"
+			"item_type_name"			"Shovel"
+			"item_description"			"Just doing God's Work."
+			"item_logname"				"Smiter"
+			"item_iconname"				"Smiter"
+			"image_inventory"			"backpack/weapons/w_models/w_shovel"
+			"model_world"				"models/weapons/w_models/w_shovel.mdl"
+			"model_player"				"models/weapons/v_models/v_shovel_soldier.mdl"
+			"attach_to_hands"			"1"		
+			"used_by_classes"
+			{
+				"soldier"				"1"
+			}
+			"attributes"
+			{
+				"deploy time decreased"
+				{
+					"attribute_class"	"mult_deploy_time"
+					"value"				"1,75"
+				}
+
+				"mod crit while airborne"
+				{
+					"attribute_class"	"crit_while_airborne"
+					"value"				"1"
+				}
+
+				"max health additive penalty"
+				{
+					"attribute_class"	"add_maxhealth"
+					"value"				"-25"
+				}
+
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"1"
+				}
+			}
+		}
+
+		"106"
+		{
+			"name"					"TF_WEAPON_HEAVY_RIVETGUN"							
+			"prefab"				"weapon_minigun"
+			"show_in_armory"			"1"
+			"item_quality"				"rarity2"
+			"propername"				"1"
+			"item_name"				"Soviet's Syringe Gun"
+			"item_type_name"			"Syringe Gun"
+			"item_description"			"Minigun Shoots Syringes instead of Bullets
+
+Ratatatata! All of you are DEAD!"
+			"item_logname" 				"SovietSyringe"
+			"item_iconname"				"SovietSyringe"
+			"image_inventory"			"backpack/weapons/c_models/c_vikels/c_vikels"
+			"model_world"				"models/weapons/c_models/c_vikels/c_vikels.mdl"
+			"model_player"				"models/weapons/c_models/c_vikels/c_vikels.mdl"
+			"attach_to_hands"			"1"
+			"used_by_classes"
+			{
+				"heavy"					"1"
+			}
+
+			"static_attrs"
+			{
+				"override projectile type"				"5"
+			}
+
+			"attributes"
+			{
+				"minigun spinup time decreased"
+				{
+					"attribute_class"	"mult_minigun_spinup_time"
+					"value" 			"0.2"
+				}
+
+				"damage penalty"
+				{
+					"attribute_class"	"add_onhit_addcond"
+					"value" 			"0.4"
+				}
+			}
+
+			"visuals"
+			{
+				"sound_double_shot"		"Weapon_Vikels.Shoot"	
+				"sound_burst"			"Weapon_Vikels.ShootCrit"	
+				"sound_single_shot"		"Weapon_FlakGun.WindUp"	
+				"sound_special2"		"Weapon_FlakGun.WindDown"
+				"sound_special3"		"Weapon_FlakGun.Spin"				
+			}
+			"mouse_pressed_sound"		"#ui/item_heavy_gun_pickup.wav"
+			"drop_sound"				"#ui/item_heavy_gun_drop.wav"
+		}	
+
+		"107"
+        	{
+			"name"						"TF_WEAPON_REVOLVER_ENGI"
+			"prefab"					"weapon_pistol"
+			"show_in_armory"			"1"
+			"propername"				"1"
+			"item_quality"				"rarity2"
+			"item_name"					"Soviet's Six-Shooter"
+			"item_type_name"			"#TF_Weapon_Revolver"
+			"item_description"			"POW! Haha!"
+			"item_logname"				"SovietShooter"
+			"item_iconname"				"Six-Shooter"
+			"image_inventory"			"backpack/weapons/w_models/w_sixshooter"
+			"model_world"				"models/weapons/w_models/w_sixshooter.mdl"
+			"model_player"				"models/weapons/v_models/v_sixshooter_engineer.mdl"
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"heavy"				"1"
+			}
+
+           		"static_attrs"
+           		{
+				"damage bonus hidden"					"2.66"
+				"clip size penalty hidden"				"0.5"
+				"fire rate penalty hidden"				"3.0"
+				"hidden secondary max ammo penalty"			"0.12"
+			}
+
+			"attributes"
+			{
+				"weapon spread bonus"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"				"0.2"
+				}
+
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"				"1.25"
+				}
+
+				"move speed bonus"
+				{
+					"attribute_class"	"mult_player_movespeed"
+					"value"				"1.1"
+				}
+
+				"no damage falloff over distance"
+				{
+					"attribute_class"	"mod_no_dmg_falloff"
+					"value"				"1"
+				}
+
+				"maxammo primary reduced"
+				{
+					"attribute_class"	"mult_maxammo_primary"
+					"value"				"0.5"
+				}
+
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"1"
+				}
+			}
+
+			"visuals"
+			{
+				"sound_single_shot"		"Weapon_revolver_shoot"
+				"sound_burst"			"Weapon_revolver_shoot_crit"
+				"sound_reload"			"Weapon_revolver_worldreload"
+				"muzzle_flash"			"muzzle_scattergun"
+				"tracer_effect"			"bullet_scattergun_tracer01"
+			}
+			"mouse_pressed_sound"		"#ui/item_light_gun_pickup.wav"
+			"drop_sound"				"#ui/item_light_gun_drop.wav"
+		}
+
+		"108"
+		{
+			"name"					"Heavy - Fists (High Damage, No Knockback)"
+			"prefab"				"weapon_fists"
+			"show_in_armory"			"1"
+			"propername"				"1"
+			"item_quality"				"rarity2"
+			"item_name"				"Konrad's Knuckle Kracker"
+			"item_type_name"			"Brass Knuckles"
+			"item_description"			"RUN! RUN! IM COMING FOR YOU!!!"
+			"item_logname"				"KnuckleKrack"
+			"item_iconname"				"Eviction Notice"
+			"image_inventory"			"backpack/workshop/weapons/c_models/c_eviction_notice/c_eviction_notice"
+			"model_player"				"models/weapons/v_models/v_eviction_notice_heavy.mdl"
+			"model_world"				"models/weapons/w_models/w_eviction_notice.mdl"
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"heavy"					"1"
+			}
+			"attributes"
+			{
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"			"1.2"
+				}
+
+				"aiming movespeed increased"
+				{
+					"attribute_class"	"mult_player_aiming_movespeed"
+					"value"			"1.1"
+				}				
+
+				"dmg from melee increased"
+				{
+					"attribute_class"	"dmg_from_melee"
+					"value"			"1.4"
+				}
+			}
+			"visuals"
+			{
+				"sound_melee_miss"		"EvictionNotice.Swing"
+				"sound_melee_hit"		"EvictionNotice.Impact"
+				"sound_melee_hit_world"		"EvictionNotice.HitWorld"
+				"sound_burst"			"Weapon_BoxingGloves.MissCrit"
+			}	
+			"mouse_pressed_sound"		"#ui/item_light_gun_pickup.wav"
+			"drop_sound"				"#ui/item_light_gun_drop.wav"
+		}
+	}
+}
