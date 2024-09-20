@@ -2,7 +2,7 @@
 {
 	"items"
 	{
-		"3"              //These are the TF2 Classic Items. Don't have IDs with the same number as these or the non-custom weapon shall not work.
+		"3"              //These are the TF2 Classic Items. Don't have IDs with the same number as these or the non-custom weapon shall not work
 		{
 			"name"						"TF_WEAPON_CLUB"
 			"prefab"					"weapon_club"
@@ -520,13 +520,12 @@
 
 			"attributes"										//attributes
 			{
-				"damage bonus"									//name of attribute - 2nd column of attribute wiki					
+				"damage penalty"									//name of attribute - 2nd column of attribute wiki					
 				{
 					"attribute_class"	"mult_dmg"					//name of class - 5th column of attribute wiki
-					"value"			"1.2"						//value of attribute
+					"value"			"0.25"						//value of attribute
 				}
 			}
-		}//put items after this bracket - WILL ACTUALLY WORK
-
-  	} //dont put items after this bracket - WILL NOT WORK
+		}
+  	}
 }
