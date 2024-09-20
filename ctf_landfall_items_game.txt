@@ -492,7 +492,7 @@
 			}
 		}
 
-		//Your Weapons go here, I like to start at 100 for easy navigation
+		//Your Weapons go here, Start at 100 because the amount of weapons above aren't them all
 
 		"100"
 		{
@@ -502,16 +502,16 @@
 
 			"item_quality"				"rarity2"					//colour of item name
 
-			"propername"				"1"						//don't change - does name
+			"propername"				"1"						//don't change - if has name?
 			"item_name"				"Scout's Wrench"				//actual name
-			"item_type_name"			"Wrench"					//grey text under 
+			"item_type_name"			"Wrench"					//grey text under name a.k.a level 30 sapper 
 			"item_description"			"Building a Cracked Head."			//description
 			"item_logname"				"Scout Wrench"					//name in console
-			"item_iconname"				"Wrench"					//icon in killfeed
-			"image_inventory"			"backpack/weapons/w_models/w_wrench"		//image shown in backpack
-			"model_world"				"models/weapons/w_models/w_wrench.mdl"		//model seen by others
-			"model_player"				"models/weapons/v_models/v_wrench_engineer.mdl"	//model seen by player who holds it
-			"attach_to_hands"			"2"						//which class is it available to
+			"item_iconname"				"Wrench"					//icon in kill feed
+			"image_inventory"			"backpack/weapons/w_models/w_wrench"		//image shown in backpack - reboot server to change
+			"model_world"				"models/weapons/w_models/w_wrench.mdl"		//model seen by others - reboot server to change
+			"model_player"				"models/weapons/v_models/v_wrench_engineer.mdl"	//model seen by player who holds it - reboot server to change
+			"attach_to_hands"			"2"						//which class is it available to - reboot server to change
 
 			"used_by_classes"
 			{
